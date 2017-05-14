@@ -1,4 +1,4 @@
-#include "hw1.h"
+#include "endn.h"
 #include "info.h"
 #include "debug.h"
 
@@ -16,7 +16,6 @@ int main(int argc, char **argv) {
    // char lowerBits = result & 31;
 
     //if(result!=0 && result!=128){//if not error or -h
-	    DINFO("CSE320 IS MY FAVORITE CLASS\n");
 	    DINFO("INFO: shifted alphabet: %s", Alphabet);
 	    DINFO("\n");
 	    DINFO("INFO: shift amount: %s",*(argv+5));

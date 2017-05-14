@@ -1,6 +1,6 @@
 # Encoding-Decoding-String
 
-This program is for encoding and decoding strings by substitute cipher.
+This program is for **encoding and decoding strings** by substitute cipher.
 
 ## How to use (Command Lines)
 

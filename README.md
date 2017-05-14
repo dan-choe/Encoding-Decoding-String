@@ -2,7 +2,9 @@
 
 This program is for **encoding and decoding strings** by a substitution cipher and a tutnese translation.
 
-## How to use (Command Lines)
+## Usuage (Command Lines)
+
+./endn [-h] -s|-t -e|-d INPUT_FILE OUTPUT_FILE [n]
 
 1. No flag : Display the help same as -h flag
 2. -h flag : Display the usage for this program

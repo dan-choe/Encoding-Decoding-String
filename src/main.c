@@ -9,6 +9,7 @@ int main(int argc, char **argv) {
 
     /* Note: create a variable to assign the result of validargs */
     int result = validargs(argc, argv, &in, &out);
+    //printf("result: %d\n", result);
     // debug("This is a test debug");
     //char bit7 = result &  128;
     //char bit6 = result & 64;
@@ -33,28 +34,28 @@ int main(int argc, char **argv) {
     //DINFO("2 debug flag was defined\n", stderr);
 
     //fprintf(stderr, "%s\n", "hehe");
-
+        USAGE(EXIT_FAILURE);
     //out = stderr;
 	//printf("\n +++dd+++++++++ result : %d \n", result);
-    if(result == 0 || result == -1){
-    	//printf("++++++++++++ zero : %d \n", result);
-    	if (in!=NULL){
-    		fclose(in);
-    	}
-		fclose(out);
-    	USAGE(EXIT_FAILURE);
-    	return EXIT_FAILURE;
-    }
+  //   if(result == 0 || result == -1){
+  //   	//printf("++++++++++++ zero : %d \n", result);
+  //   	if (in!=NULL){
+  //   		fclose(in);
+  //   	}
+		// fclose(out);
+  //   	USAGE(EXIT_FAILURE);
+  //   	return EXIT_FAILURE;
+  //   }
 
-    int resulth = result & 0x80;
-    if(resulth == 0x80){
-    	if (in!=NULL){
-    		fclose(in);
-    	}
-		fclose(out);
-    	USAGE(EXIT_SUCCESS);
-    	return EXIT_SUCCESS;
-    }
+  //   int resulth = result & 0x80;
+  //   if(resulth == 0x80){
+  //   	if (in!=NULL){
+  //   		fclose(in);
+  //   	}
+		// fclose(out);
+  //   	USAGE(EXIT_SUCCESS);
+  //   	return EXIT_SUCCESS;
+  //   }
 
     if (in!=NULL){
     	fclose(in);

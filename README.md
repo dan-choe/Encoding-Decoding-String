@@ -13,7 +13,7 @@ This program is for **encoding and decoding strings** by a substitution cipher a
 
 The full usage for the program is:
 
-    <img src="https://github.com/dan-choe/Encoding-Decoding-String/blob/master/pic1.png">
+<img src="https://github.com/dan-choe/Encoding-Decoding-String/blob/master/pic1.png">
 
 
 
